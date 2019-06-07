@@ -1,0 +1,21 @@
+﻿<CodeGeneration Generator="Template Class">
+  <shape designerX="13" designerY="16">
+    <template templatename="Sentiment Range" templateid="{84FC0D52-E2B3-4D70-8981-B951D9F4535E}" templateuri="/bookshelf/master/{84FC0D52-E2B3-4D70-8981-B951D9F4535E}" classname="SentimentRange">
+      <section id="{02C6B9AC-8DF5-491F-A3EC-CEB57E9359AF}" name="Sentiment Range">
+        <field id="{2C451704-82B6-4ACD-B848-8FF5129D42EB}" name="Display" shared="0" source="" type="Single-Line Text" unversioned="0" propertyname="Display" />
+        <field id="{55CB2006-F574-4D8A-8DC8-F6D8302EBDC5}" name="Lower" shared="0" source="" type="Number" unversioned="0" propertyname="Lower" />
+        <field id="{405A9AAE-A5F7-4F16-A50D-A5407D35227E}" name="Higher" shared="0" source="" type="Number" unversioned="0" propertyname="Higher" />
+      </section>
+    </template>
+  </shape>
+  <shape designerX="241" designerY="19">
+    <template templatename="_Text Analytics Entity" templateid="{60E2F69B-28CD-4C18-8003-1035DE182F49}" templateuri="/bookshelf/master/{60E2F69B-28CD-4C18-8003-1035DE182F49}" classname="__TextAnalyticsEntity">
+      <section id="{CB202B9B-1155-430C-BACA-90E6F96692C9}" name="Text Analytics">
+        <field id="{A6076C21-FEB4-469C-8A98-A7FB954F4644}" name="Sentiment" shared="1" source="/sitecore/system/Modules/TextAnalyticsTagging/Sentiment Ranges" type="Droplink" unversioned="0" propertyname="Sentiment" />
+        <field id="{CAF6F1D5-E3C3-4D03-9F27-80E6F171635D}" name="Sentiment Rating" shared="1" source="" type="Single-Line Text" unversioned="0" propertyname="SentimentRating" />
+        <field id="{36D1CC96-6DA1-4F1F-BCC9-80FEEF0638B2}" name="Entities" shared="1" source="" type="Name Value List" unversioned="0" propertyname="Entities" />
+        <field id="{F0E060CA-5536-4098-A75F-250E765EA0A3}" name="TextAnalytics MD5" shared="1" source="" type="Single-Line Text" unversioned="0" propertyname="TextAnalyticsMD5" />
+      </section>
+    </template>
+  </shape>
+</CodeGeneration>
