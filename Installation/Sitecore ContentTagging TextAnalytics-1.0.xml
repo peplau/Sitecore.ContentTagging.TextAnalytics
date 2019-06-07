@@ -1,0 +1,98 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>Sitecore ContentTagging TextAnalytics</PackageName>
+      <Author>Rodrigo Peplau</Author>
+      <Version>1.0</Version>
+      <Revision />
+      <License />
+      <Comment>Source code: https://github.com/peplau/Sitecore.ContentTagging.TextAnalytics</Comment>
+      <Attributes />
+      <Readme>Post-installation steps - After installing this package, make sure to go though the following steps:
+
+1. Open /App_Config/Include/Sitecore.ContentTagging.TextAnalytics.config
+2. Add your TextAnalytics Subscription Key to the setting Sitecore.ContentTagging.TextAnalytics.SubscriptionKey
+3. Add your TextAnalytics Endpoint to the setting Sitecore.ContentTagging.TextAnalytics.EndPoint
+4. Adjust the setting Sitecore.ContentTagging.TextAnalytics.FieldsToProcess to reflect your field names (or let it empty to use all fields)
+5. To have your items processed and tagged, activate their templates by making them inherit from /sitecore/templates/Modules/TextAnalyticsTagging/_Text Analytics Entity
+
+</Readme>
+      <Publisher>Nish Tech Inc.</Publisher>
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/templates/Modules/TextAnalyticsTagging/_Text Analytics Entity/__Standard Values/{BDBF598F-1D7D-4609-A42B-AE27163B2D19}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/TextAnalyticsTagging/_Text Analytics Entity/{60E2F69B-28CD-4C18-8003-1035DE182F49}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/TextAnalyticsTagging/_Text Analytics Entity/Text Analytics/{CB202B9B-1155-430C-BACA-90E6F96692C9}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/TextAnalyticsTagging/_Text Analytics Entity/Text Analytics/Entities/{36D1CC96-6DA1-4F1F-BCC9-80FEEF0638B2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/TextAnalyticsTagging/_Text Analytics Entity/Text Analytics/Sentiment Rating/{CAF6F1D5-E3C3-4D03-9F27-80E6F171635D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/TextAnalyticsTagging/_Text Analytics Entity/Text Analytics/Sentiment/{A6076C21-FEB4-469C-8A98-A7FB954F4644}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/TextAnalyticsTagging/_Text Analytics Entity/Text Analytics/TextAnalytics MD5/{F0E060CA-5536-4098-A75F-250E765EA0A3}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/TextAnalyticsTagging/{AD9113BB-9C84-4F6F-8D20-75E481A6E731}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/TextAnalyticsTagging/Sentiment Range/__Standard Values/{209E1EDA-2CCD-459D-BD4F-C515C7D4FD30}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/TextAnalyticsTagging/Sentiment Range/{84FC0D52-E2B3-4D70-8981-B951D9F4535E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/TextAnalyticsTagging/Sentiment Range/Sentiment Range/{02C6B9AC-8DF5-491F-A3EC-CEB57E9359AF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/TextAnalyticsTagging/Sentiment Range/Sentiment Range/Display/{2C451704-82B6-4ACD-B848-8FF5129D42EB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/TextAnalyticsTagging/Sentiment Range/Sentiment Range/Higher/{405A9AAE-A5F7-4F16-A50D-A5407D35227E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/TextAnalyticsTagging/Sentiment Range/Sentiment Range/Lower/{55CB2006-F574-4D8A-8DC8-F6D8302EBDC5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/TextAnalyticsTagging/Sentiments Range Folder/__Standard Values/{189675D8-0065-4126-A46B-E694168C42A2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Modules/TextAnalyticsTagging/Sentiments Range Folder/{6A70E6DF-F0AA-4A09-97D5-E488F34A5E01}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Templates</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/system/Modules/TextAnalyticsTagging/{F5AD405C-176F-4705-850B-558EB6CADACF}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/TextAnalyticsTagging/Sentiment Ranges/{3A6D03C6-7D64-439B-B7AE-B5F3372C7636}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/TextAnalyticsTagging/Sentiment Ranges/Negative/{7340ED34-7C90-4380-9786-63C9A89C1526}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/TextAnalyticsTagging/Sentiment Ranges/Neutral/{EE41B23C-F3FD-4FFB-9996-D4CBFAAC3C27}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/TextAnalyticsTagging/Sentiment Ranges/Positive/{505E63DE-CE6E-448E-8298-AFB32A554926}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Sentiment Ranges</Name>
+    </xitems>
+    <xfiles>
+      <Entries>
+        <x-item>/App_Config/Include/Sitecore.ContentTagging.TextAnalytics.config</x-item>
+        <x-item>/bin/Sitecore.ContentTagging.TextAnalytics.dll</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms />
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Files</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
