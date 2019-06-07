@@ -2,9 +2,9 @@
 
 Download the package and install with Installation Wizard
 
-# Post-installation steps
+# Configuration
 
-After installing this package, make sure to go though the following steps:
+After installing this package, make sure to go through the following steps:
 
 1. Open /App_Config/Include/Sitecore.ContentTagging.TextAnalytics.config
 2. Add your TextAnalytics Subscription Key to the setting Sitecore.ContentTagging.TextAnalytics.SubscriptionKey
