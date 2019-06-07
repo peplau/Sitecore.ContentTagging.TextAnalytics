@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {7340ED34-7C90-4380-9786-63C9A89C1526}
+database: master
+path: /sitecore/system/Modules/TextAnalyticsTagging/Sentiment Ranges/Negative
+parent: {3A6D03C6-7D64-439B-B7AE-B5F3372C7636}
+name: Negative
+master: {00000000-0000-0000-0000-000000000000}
+template: {84FC0D52-E2B3-4D70-8981-B951D9F4535E}
+templatekey: Sentiment Range
+created: 20190603T190743Z
+
+----version----
+language: en
+version: 1
+revision: 86e46311-2bc4-4f73-b89e-9cee2824f90a
+
+----field----
+field: {2C451704-82B6-4ACD-B848-8FF5129D42EB}
+name: Display
+key: display
+content-length: 8
+
+Negative
+----field----
+field: {55CB2006-F574-4D8A-8DC8-F6D8302EBDC5}
+name: Lower
+key: lower
+content-length: 1
+
+0
+----field----
+field: {405A9AAE-A5F7-4F16-A50D-A5407D35227E}
+name: Higher
+key: higher
+content-length: 6
+
+0.3332
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190603T190743Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+86e46311-2bc4-4f73-b89e-9cee2824f90a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190606T142154Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
